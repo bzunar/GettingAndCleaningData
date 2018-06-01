@@ -39,3 +39,5 @@ From these signals were estimated:
 
 **subject** specifies which person performed the activity.
 
+**Values in each row of the tidy data set 'final' correspond to the average of each variable for each activity and each subject.**
+
