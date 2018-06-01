@@ -31,12 +31,11 @@ Finally, a **Fast Fourier Transform (FFT)** was applied to some of these signals
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-From these signals: 
+From these signals were estimated: 
   * mean value (**mean**) and 
-  * standard deviation (**std**) 
-
-were estimated.
+  * standard deviation (**std**).
 
 **activity** specifies which activity person performed while wearing a smartphone.
+
 **subject** specifies which person performed the activity.
 
