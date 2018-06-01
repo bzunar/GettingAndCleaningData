@@ -13,12 +13,12 @@ The tidy data set contains the average of each variable for each activity and ea
 
 The run_analysis.R script transforms the raw data set into a tidy data set through the following steps:
 * it downloads the original data set (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip),
-* reads into R:
+* reads into R files containing:
   * training and test sets,
   * sets' labels,
-  * variable names,
+  * variable names, and
   * files that connect activities to individual subjects,
-* appends to the training and test sets activity and subject data,
+* appends to the training and test sets the activity and subject data,
 * merges appended training and test sets into a new data set ('merged'),
 * extracts the measurements on the mean and standard deviation for each measurement into a new data set ('mean_std'),
 * revises 'mean_std' to use descriptive activity and descriptive variable names, and
