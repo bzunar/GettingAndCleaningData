@@ -1,7 +1,7 @@
 # GettingAndCleaningData
 Getting and Cleaning Data Course Project: Peer Graded Assignment from Week 4
 
-This repository contains:
+In addition to 'README.md' file, this repository contains:
 
 * tidy data set (.txt file),
 * 'run_analysis.R' (R script) which transforms raw data collected from the Samsung Galaxy S smartphone accelerometers to the tidy data set, and
